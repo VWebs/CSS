@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lista de perfis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lista.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="js/lista.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid list-container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <nav class="navbar navbar-default search">
+            <div class="container-fluid">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                <input class="form-control" name="search" placeholder="search" autofocus="autofocus" type="search" id="search-user">
+                </input>
+              </div>
+            </div>
+          </nav>
+          <ul class="list-group">
+            <li class="list-group-item filter-user" data-name="John Doe">
+              <div class="list-item-container">
+                <div class="media col-md-3">
+                  <figure class="pull-left">
+                    <img src="http://lorempixel.com/120/120/people/1/" class="img-circle img-thumbnail" />
+                  </figure>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="text-center"> John Doe </h2>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item filter-user" data-name="Jane Doe">
+              <div class="list-item-container">
+                <div class="media col-md-3">
+                  <figure class="pull-left">
+                    <img src="http://lorempixel.com/120/120/people/2/" class="img-circle img-thumbnail" />
+                  </figure>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="text-center"> Jane Doe </h2>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item filter-user" data-name="Jane Kali">
+              <div class="list-item-container">
+                <div class="media col-md-3">
+                  <figure class="pull-left">
+                    <img src="http://lorempixel.com/120/120/people/3/" class="img-circle img-thumbnail" />
+                  </figure>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="text-center"> Jane Kali </h2>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
